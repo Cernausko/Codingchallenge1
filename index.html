@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos filtravimas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="filterForm">
+        <label for="age">Amžius:</label>
+        <input type="number" id="age" name="age">
+
+        <label for="city">Miestas:</label>
+        <input type="text" id="city" name="city">
+
+        <button type="button" onclick="filterData()">Filtruoti</button>
+    </form>
+    <ul id="resultList"></ul>
+    <script src="filter.js"></script>
+</body>
+</html>
